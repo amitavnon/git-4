@@ -1,10 +1,85 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>crap portfolio</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
 
-  </body>
+<header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm [Your Name], a passionate [Your Profession/Field]. I enjoy creating solutions, building projects, and learning new technologies.</p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+        <li><strong>Project 1:</strong> A brief description of your project. <a href="#">View Project</a></li>
+        <li><strong>Project 2:</strong> A brief description of another project. <a href="#">View Project</a></li>
+        <li><strong>Project 3:</strong> A brief description of yet another project. <a href="#">View Project</a></li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to email me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+</footer>
+
+</body>
 </html>
